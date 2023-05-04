@@ -76,7 +76,7 @@ const relationWithSalary2: GenericTuples<{ name: string, salary: number }, strin
 
 type GenericArray<T> = Array<T>
 
-const rollNumbers: GenericArray<number> = [44, 12, 4];
+const rollNumbers1: GenericArray<number> = [44, 12, 4];
 const rollNumbers2: GenericArray<string> = ['44', '12', '4'];
 const rollNumbers3: GenericArray<boolean> = [true, false];
 
@@ -90,6 +90,3 @@ const userNameAndRollNumbers: GenericArray<NameRollType> = [{
     roll: 2
 }]
 
-
-add(x, y)
-add(3, 4)
