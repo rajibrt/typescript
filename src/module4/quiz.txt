@@ -1,0 +1,93 @@
+1. Which keyword is used in TypeScript to define a class that inherits from another class?
+
+Which is the correct answer? 
+A: implements
+B: extends ✅
+C: inherits
+D: dervies
+
+2. Fill in the blank with the appropriate statement.
+
+class A {
+  num: number;
+  constructor(num: number) {
+    this.num = num;
+  }
+}
+
+class B extends A {
+  constructor(num: number){
+    _______?______ ;
+  }
+
+}
+
+Which is the correct answer? 
+A: this.num = num
+B: super = num
+C: super(num) ✅
+D: super(this.num)
+
+3. Which type guard operator can be used to check if a property exists on an object?
+
+Which is the correct answer? 
+A: keyof
+B: in ✅
+C: instaceof
+D: All of above
+
+4. What is the default access modifier for a class member in TypeScript?
+
+Which is the correct answer? 
+A: public ✅
+B: private
+C: protected
+D: It is bassed on the onclosing scope of the member
+
+5. What is the syntax for declaring a getter method in TypeScript?
+
+Which is the correct answer? 
+A: get methodName(): returnType { /* implementation */ } ✅
+B: methodName(): returnType { /* implementation */ }
+C: set methodName(): returnType { /* implementation */ }
+D: none
+
+6. Which access modifier allows a class member to be accessed from within the class only?
+
+Which is the correct answer? 
+A: public
+B: private ✅
+C: protected
+D: all of above
+
+7. What is the syntax for declaring a class in TypeScript?
+
+Which is the correct answer? 
+A: class ClassName() { /* implementation */ }
+B: ClassName { /* implementation */ }
+C: function ClassName() { /* implementation */ }
+D: class ClassName { /* implementation */ } ✅
+
+8. What is the syntax for creating an instance of a class in TypeScript?
+
+Which is the correct answer? 
+A: ClassName()
+B: new ClassName() ✅
+C: create ClassName()
+D: constructor(){ }
+
+9. What is the purpose of using inheritance in OOP?
+
+Which is the correct answer? 
+A: To create multiple instances of a class.
+B: To reduce the amount of code needed to create similar classes. ✅
+C: To encapsulate data and behavior within a single entity.
+D: To find a sequence of instructions for a program
+
+10. What is polymorphism in OOP?
+
+Which is the correct answer? 
+A: The ability of a class to have multiple constructors.
+B: The ability of a class to implement multiple interfaces.
+C: The ability of a class to take on multiple forms or behaviors. ✅
+D: The ability to create multiple instances of a class.
