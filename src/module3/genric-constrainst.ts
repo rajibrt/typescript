@@ -25,4 +25,3 @@ const myInfo = {
 }
 
 const result4 = addMeInMyCrushMind(myInfo);
-result4.
